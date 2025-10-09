@@ -1,9 +1,9 @@
 [gd_resource type="Theme" load_steps=7 format=3 uid="uid://b8fssrpnbrrtv"]
 
-[ext_resource type="StyleBox" uid="uid://brbce71vvh4a0" path="res://addons/theme/disabled_box.tres" id="1_3n26i"]
-[ext_resource type="StyleBox" uid="uid://dtiodwlhavll7" path="res://addons/theme/hover_box.tres" id="2_i1e0v"]
-[ext_resource type="StyleBox" uid="uid://bn5shlop0htdn" path="res://addons/theme/primary_box.tres" id="3_aaj76"]
-[ext_resource type="StyleBox" uid="uid://d3v5d07rrkilo" path="res://addons/theme/selected_box.tres" id="4_vhp3g"]
+[ext_resource type="StyleBox" uid="uid://brbce71vvh4a0" path="res://addons/mdossan_theme/disabled_box.tres" id="1_3n26i"]
+[ext_resource type="StyleBox" uid="uid://dtiodwlhavll7" path="res://addons/mdossan_theme/hover_box.tres" id="2_i1e0v"]
+[ext_resource type="StyleBox" uid="uid://bn5shlop0htdn" path="res://addons/mdossan_theme/primary_box.tres" id="3_aaj76"]
+[ext_resource type="StyleBox" uid="uid://d3v5d07rrkilo" path="res://addons/mdossan_theme/selected_box.tres" id="4_vhp3g"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_e3res"]
 

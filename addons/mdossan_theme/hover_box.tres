@@ -1,6 +1,6 @@
 [gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://dtiodwlhavll7"]
 
-[ext_resource type="Texture2D" uid="uid://cseqsyhjx5hrt" path="res://addons/theme/hover.tres" id="1_ghja4"]
+[ext_resource type="Texture2D" uid="uid://cseqsyhjx5hrt" path="res://addons/mdossan_theme/hover.tres" id="1_ghja4"]
 
 [resource]
 texture = ExtResource("1_ghja4")
