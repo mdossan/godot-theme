@@ -1,0 +1,10 @@
+[gd_resource type="StyleBoxTexture" load_steps=2 format=3 uid="uid://bn5shlop0htdn"]
+
+[ext_resource type="Texture2D" uid="uid://4o35ha1fb2ow" path="res://addons/theme/primary.tres" id="1_j5av8"]
+
+[resource]
+texture = ExtResource("1_j5av8")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
