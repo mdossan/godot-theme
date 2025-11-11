@@ -9,7 +9,7 @@
 
 [resource]
 resource_local_to_scene = true
-default_font_size = 8
+default_font_size = 42
 Button/constants/outline_size = 4
 Button/styles/disabled = ExtResource("1_3n26i")
 Button/styles/focus = SubResource("StyleBoxEmpty_e3res")
