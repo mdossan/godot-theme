@@ -1,8 +1,8 @@
 [gd_scene load_steps=3 format=3 uid="uid://ds1ivwkmhj7y2"]
 
 [ext_resource type="Script" uid="uid://wg811gp415bj" path="res://addons/mdossan_theme/theme_builder.gd" id="1_bjq62"]
-[ext_resource type="Texture2D" uid="uid://bqncu7rfufwfk" path="res://addons/mdossan_theme/theme.png" id="2_i87nb"]
+[ext_resource type="Texture2D" uid="uid://pgtq3r3mk3fh" path="res://addons/mdossan_theme/theme.png" id="2_y0j7o"]
 
 [node name="ThemeBuilder" type="Node"]
 script = ExtResource("1_bjq62")
-atlas_sprite = ExtResource("2_i87nb")
+atlas_sprite = ExtResource("2_y0j7o")

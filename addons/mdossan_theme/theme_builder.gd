@@ -1,7 +1,8 @@
 @tool
 class_name ThemeBuilder extends Node
 
-@export var margin_size: int = 16
+@export var sprite_size: int = 192
+@export var margin_size: int = 24
 @onready @export var atlas_sprite: Texture2D = load("res://addons/mdossan_theme/theme.png"):
 	set(new_atlas):
 		print("Atlas has been loaded")
@@ -15,7 +16,7 @@ func build() -> void:
 		var element_name = theme_elements[i]
 		var atlas_texture = AtlasTexture.new()
 		atlas_texture.atlas = atlas_sprite
-		atlas_texture.region = Rect2(48 * i, 0, 48, 48)
+		atlas_texture.region = Rect2(sprite_size * i, 0, sprite_size, sprite_size)
 		DirAccess.remove_absolute("res://addons/mdossan_theme/%s.tres" % element_name)
 		ResourceSaver.save(atlas_texture, "res://addons/mdossan_theme/%s.tres" % element_name)
 		var style_box: StyleBoxTexture = ResourceLoader.load("res://addons/mdossan_theme/%s_box.tres" % element_name)
