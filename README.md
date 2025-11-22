@@ -25,3 +25,11 @@ You can install the `mdossan's theme builder` package directly from Godot by fol
 <img width="346" height="408" alt="Capture d’écran 2025-11-11 à 15 43 54" src="https://github.com/user-attachments/assets/f931335c-3eaa-4638-bcb9-792042cdda6d" />
 
 ## How to use
+
+To use the theme, simply use the `./addons/mdossan_theme/theme.tres` in your control node.
+
+You can customize the provided theme.png in order to ajust the theme.
+
+By default the `theme.png` file correspond to a `192x24` image, but you can increase it. If you do so, you'll have to regenerate the theme by clicking the `Build Theme` button in the editor. 
+
+NOTE: You will have to reload your Godot Editor if the icons UI does not update.
