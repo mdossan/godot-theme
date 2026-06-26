@@ -1,0 +1,10 @@
+[gd_resource type="StyleBoxTexture" format=3 uid="uid://dm18gu64pon7o"]
+
+[ext_resource type="Texture2D" uid="uid://c4g2ixmmmytni" path="res://addons/mds_theme/button/button_hover.png" id="1_8mfv4"]
+
+[resource]
+texture = ExtResource("1_8mfv4")
+texture_margin_left = 12.0
+texture_margin_top = 12.0
+texture_margin_right = 12.0
+texture_margin_bottom = 12.0
