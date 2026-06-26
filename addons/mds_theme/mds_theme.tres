@@ -1,0 +1,71 @@
+[gd_resource type="Theme" format=3 uid="uid://b8fssrpnbrrtv"]
+
+[ext_resource type="StyleBox" uid="uid://brbce71vvh4a0" path="res://addons/mds_theme/disabled_box.tres" id="1_3n26i"]
+[ext_resource type="StyleBox" uid="uid://dm18gu64pon7o" path="res://addons/mds_theme/button/button_hover.tres" id="1_8gv1o"]
+[ext_resource type="StyleBox" uid="uid://dtiodwlhavll7" path="res://addons/mds_theme/hover_box.tres" id="2_i1e0v"]
+[ext_resource type="StyleBox" uid="uid://nnig7jvn83vy" path="res://addons/mds_theme/button/button_normal.tres" id="2_lb4n2"]
+[ext_resource type="Texture2D" uid="uid://d4gwdmhpkibm7" path="res://addons/mds_theme/checkbox/checkbox_checked.png" id="3_6gfup"]
+[ext_resource type="StyleBox" uid="uid://bn5shlop0htdn" path="res://addons/mds_theme/primary_box.tres" id="3_aaj76"]
+[ext_resource type="StyleBox" uid="uid://dttb323p0cybu" path="res://addons/mds_theme/button/button_pressed.tres" id="3_lb4n2"]
+[ext_resource type="Texture2D" uid="uid://c5ifn0g1m2hgv" path="res://addons/mds_theme/checkbox/checkbox_unchecked.png" id="4_paekx"]
+[ext_resource type="StyleBox" uid="uid://d3v5d07rrkilo" path="res://addons/mds_theme/selected_box.tres" id="4_vhp3g"]
+[ext_resource type="StyleBox" uid="uid://usqxy46qd2wb" path="res://addons/mds_theme/slider/slider.tres" id="9_3gyt8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_m0gle"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_8gv1o"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_dyi5x"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lb4n2"]
+
+[resource]
+resource_local_to_scene = true
+default_font_size = 24
+Button/styles/hover = ExtResource("1_8gv1o")
+Button/styles/normal = ExtResource("2_lb4n2")
+Button/styles/pressed = ExtResource("3_lb4n2")
+CheckBox/constants/h_separation = 0
+CheckBox/icons/checked = ExtResource("3_6gfup")
+CheckBox/icons/unchecked = ExtResource("4_paekx")
+CheckBox/styles/hover = SubResource("StyleBoxEmpty_m0gle")
+CheckBox/styles/hover_pressed = SubResource("StyleBoxEmpty_8gv1o")
+CheckBox/styles/normal = SubResource("StyleBoxEmpty_dyi5x")
+CheckBox/styles/pressed = SubResource("StyleBoxEmpty_lb4n2")
+HScrollBar/styles/grabber = ExtResource("3_aaj76")
+HScrollBar/styles/grabber_highlight = ExtResource("2_i1e0v")
+HScrollBar/styles/grabber_pressed = ExtResource("4_vhp3g")
+HScrollBar/styles/scroll = ExtResource("1_3n26i")
+HSlider/styles/grabber_area = ExtResource("3_aaj76")
+HSlider/styles/grabber_area_highlight = ExtResource("2_i1e0v")
+HSlider/styles/slider = ExtResource("1_3n26i")
+ItemList/colors/font_color = Color(1, 1, 1, 1)
+ItemList/styles/panel = ExtResource("3_aaj76")
+Label/constants/outline_size = 4
+LineEdit/styles/focus = ExtResource("4_vhp3g")
+LineEdit/styles/normal = ExtResource("3_aaj76")
+LineEdit/styles/read_only = ExtResource("1_3n26i")
+PanelContainer/styles/panel = ExtResource("3_aaj76")
+ProgressBar/styles/background = ExtResource("1_3n26i")
+ProgressBar/styles/fill = ExtResource("3_aaj76")
+TabContainer/styles/panel = ExtResource("4_vhp3g")
+TabContainer/styles/tab_disabled = ExtResource("1_3n26i")
+TabContainer/styles/tab_hovered = ExtResource("2_i1e0v")
+TabContainer/styles/tab_selected = ExtResource("4_vhp3g")
+TabContainer/styles/tab_unselected = ExtResource("3_aaj76")
+TextEdit/styles/focus = ExtResource("4_vhp3g")
+TextEdit/styles/normal = ExtResource("3_aaj76")
+TextEdit/styles/read_only = ExtResource("1_3n26i")
+Tree/colors/font_color = Color(1, 1, 1, 1)
+Tree/styles/button_hover = ExtResource("2_i1e0v")
+Tree/styles/button_pressed = ExtResource("4_vhp3g")
+Tree/styles/hovered = ExtResource("2_i1e0v")
+Tree/styles/panel = ExtResource("3_aaj76")
+Tree/styles/selected = ExtResource("4_vhp3g")
+Tree/styles/selected_focus = ExtResource("4_vhp3g")
+Tree/styles/title_button_normal = ExtResource("3_aaj76")
+VScrollBar/styles/grabber = ExtResource("3_aaj76")
+VScrollBar/styles/grabber_highlight = ExtResource("2_i1e0v")
+VScrollBar/styles/grabber_pressed = ExtResource("4_vhp3g")
+VScrollBar/styles/scroll = ExtResource("1_3n26i")
+VSlider/styles/slider = ExtResource("9_3gyt8")
